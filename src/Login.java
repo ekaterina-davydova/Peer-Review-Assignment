@@ -27,7 +27,7 @@ String generatedEmail = GenerateEmail(firstName, lastName, businessName);
 System.out.println(generatedEmail);
 
 String generatedUsername = GenerateUsername(firstName, lastName);
-System.err.println(generatedUsername.toLowerCase());
+System.out.println(generatedUsername.toLowerCase());
 
         in.close();
 
